@@ -1,19 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+
+
 :root {
   --primary-color: #f755b6;
   --primary-color-dark: #ea33d5;
   --secondary-color: #ca8a04;
   --text-dark: #1f2937;
   --text-light: #6b7280;
-  --extra-light: #faf5ff;
+  --extra-light: #fff2f2;
   --max-width: 1200px;
 }
-
-
-
-
-
 
 
 
@@ -34,10 +31,10 @@
 } */
 
 /* SECTION DEFAULTS */
-/* .section {
+.section {
     background-color: var(--extra-light);
    
-  } */
+  }
   
   .section__container {
     min-height: 100vh;
@@ -87,7 +84,7 @@
     letter-spacing: 2px;
     padding: 1rem 2rem;
     outline: none;
-    border: 2px solid black;
+    border: 2px solid  black;
     border-radius: 10px;
     transition: 0.3s;
     cursor: pointer;
@@ -96,7 +93,8 @@
   }
   
   .action__btns button a {
-    color: black; /* Change this to the desired text color */
+    color: 
+    rgba(209, 36, 68, 0.814); /* Change this to the desired text color */
    }
 
 
