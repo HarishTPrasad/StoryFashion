@@ -3,6 +3,16 @@
     padding: 0px;
 }
 
+/* :root {
+  --primary-color: #CA61C3;
+  --primary-color-dark: #883677;
+  --secondary-color: #ca8a04;
+  --text-dark: #13293D;
+  --text-light: #618985;
+  --extra-light: #E2E2E2;
+  --max-width: 1200px;
+} */
+
 /* SECTION DEFAULTS */
 .section {
     background-color: var(--extra-light);
@@ -47,8 +57,7 @@
   /* BUTTONS DEFAULT */
   .action__btns {
     display: flex;
-    gap: 1rem;
-
+    gap: 0.5rem;
    
   }
   
@@ -65,15 +74,7 @@
    
   }
   
-  .hire__me {
-    background-color: var(--primary-color);
-    color: #ffffff;
-  }
-  
-  .hire__me:hover {
-    background-color: var(--primary-color-dark);
-  }
-  
+
   .portfolio {
     color: var(--primary-color);
   }
@@ -85,5 +86,20 @@
   
 
 .contact {
-    margin-top: 20%;
+    margin-top: 60px;
 }
+
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  margin: 20px;
+  padding: 20px;
+}
+  
+
+
+
