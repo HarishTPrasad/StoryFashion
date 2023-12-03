@@ -19,6 +19,23 @@
     margin: 0px;
     padding: 0px;
 }
+#fixed-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff; /* Set your desired background color */
+  color: #ff0000c4; /* Set your desired text color */
+  border: none;
+  border-radius: 50%; /* to make it circular */
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#fixed-button:hover {
+  background-color: #70c6ff; /* Change color on hover if desired */
+}
 
 
 /* SECTION DEFAULTS */
