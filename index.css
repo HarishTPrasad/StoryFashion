@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-
-
 :root {
   --primary-color: #f755b6;
   --primary-color-dark: #ea33d5;
@@ -12,13 +10,11 @@
   --max-width: 1200px;
 }
 
-
-
-
 *{
     margin: 0px;
     padding: 0px;
 }
+
 #fixed-button {
   position: fixed;
   top: 20px;
